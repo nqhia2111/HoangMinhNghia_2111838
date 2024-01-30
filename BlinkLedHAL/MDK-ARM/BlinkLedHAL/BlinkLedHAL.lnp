@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"blinkledhal\startup_stm32f103xb.o"
+"blinkledhal\main.o"
+"blinkledhal\stm32f1xx_it.o"
+"blinkledhal\stm32f1xx_hal_msp.o"
+"blinkledhal\stm32f1xx_hal_gpio_ex.o"
+"blinkledhal\stm32f1xx_hal_tim.o"
+"blinkledhal\stm32f1xx_hal_tim_ex.o"
+"blinkledhal\stm32f1xx_hal.o"
+"blinkledhal\stm32f1xx_hal_rcc.o"
+"blinkledhal\stm32f1xx_hal_rcc_ex.o"
+"blinkledhal\stm32f1xx_hal_gpio.o"
+"blinkledhal\stm32f1xx_hal_dma.o"
+"blinkledhal\stm32f1xx_hal_cortex.o"
+"blinkledhal\stm32f1xx_hal_pwr.o"
+"blinkledhal\stm32f1xx_hal_flash.o"
+"blinkledhal\stm32f1xx_hal_flash_ex.o"
+"blinkledhal\stm32f1xx_hal_exti.o"
+"blinkledhal\system_stm32f1xx.o"
+--strict --scatter "BlinkLedHAL\BlinkLedHAL.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BlinkLedHAL.map" -o BlinkLedHAL\BlinkLedHAL.axf
