@@ -1,0 +1,11 @@
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:342:22:LL_GPIO_SetPinMode	40	static,ignoring_inline_asm
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:420:22:LL_GPIO_SetPinSpeed	40	static,ignoring_inline_asm
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:494:22:LL_GPIO_SetPinOutputType	40	static,ignoring_inline_asm
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:833:22:LL_GPIO_ResetOutputPin	16	static
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:862:22:LL_GPIO_TogglePin	24	static
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h:447:22:LL_APB1_GRP1_EnableClock	24	static
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h:763:22:LL_APB2_GRP1_EnableClock	24	static
+../Core/Src/main.c:64:5:main	8	static
+../Core/Src/main.c:114:6:SystemClock_Config	72	static
+../Core/Src/main.c:153:13:MX_GPIO_Init	32	static
+../Core/Src/main.c:183:6:Error_Handler	4	static

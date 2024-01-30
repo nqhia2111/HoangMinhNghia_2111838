@@ -1,0 +1,11 @@
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:342:22:LL_GPIO_SetPinMode	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:420:22:LL_GPIO_SetPinSpeed	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:494:22:LL_GPIO_SetPinOutputType	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:833:22:LL_GPIO_ResetOutputPin	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:862:22:LL_GPIO_TogglePin	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h:447:22:LL_APB1_GRP1_EnableClock	1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h:763:22:LL_APB2_GRP1_EnableClock	1
+../Core/Src/main.c:64:5:main	1
+../Core/Src/main.c:114:6:SystemClock_Config	3
+../Core/Src/main.c:153:13:MX_GPIO_Init	1
+../Core/Src/main.c:183:6:Error_Handler	1
